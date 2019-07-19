@@ -1,0 +1,154 @@
+body{
+	background-color: #FFF;
+	overflow: hidden;
+}
+.otherTop .search{
+	width: 90% !important;
+	margin: 0 auto;
+	margin-top: 9px;
+	float: none;
+}
+.otherTop .search i{
+	color: #666;
+}
+.otherTop .search input{
+	color: #666;
+}
+
+.oneClassify{
+	border-bottom: 1px solid #e5e5e5;
+}
+.oneClassify .wrapper {position:relative;height: 40px;width: 100%;overflow: hidden;margin:0 auto;}
+.oneClassify .wrapper .scroller {position:absolute;height: 40px;}
+.oneClassify .wrapper .scroller ul{overflow: hidden;height: 40px;}
+.oneClassify .wrapper .scroller li {height: 40px;color:#999;float: left;line-height: 40px;font-size: 14px;text-align: center}
+.oneClassify .wrapper .scroller li a{color:#333;display:block;margin:0 10px;padding:0 5px; font-size: 14px;}
+.oneClassify .wrapper .scroller li.cur a{color:#aace52;height:38px;border-bottom:2px solid #aace52}
+
+.twoClassify{
+	overflow: hidden;
+}
+.twoClassify .menu{
+	width: 100px;
+	float: left;
+	background-color: #f6f4f4;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+.twoClassify .menu ul li a{
+	display: block;
+	width: 100%;
+	line-height: 50px;
+	text-align: center;
+	padding: 0 10px;
+	font-size: 14px;
+	color: #7c7c7c;
+	border-bottom: 1px solid #eee;
+	overflow: hidden;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box; /* Firefox */
+	-webkit-box-sizing:border-box; /* Safari */
+}
+.twoClassify .menu ul li.active a{
+	color: #7c7c7c;
+	background-color: #FFF;
+}
+
+.twoClassify .list{
+	width: 100px;
+	float: left;
+	overflow-x: hidden;
+	overflow-y: auto;
+	position: relative;
+}
+.twoClassify .list ul li{
+	margin: 0 5px;
+	padding: 15px 5px;
+	overflow: hidden;
+	border-bottom: 1px solid #f6f6f6;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box; /* Firefox */
+	-webkit-box-sizing:border-box; /* Safari */
+}
+.twoClassify .list ul li img{
+	width: 60px;
+	height: 60px;
+	float: left;
+}
+.twoClassify .list ul li .dis{
+	width: 200px;
+	height: 60px;
+	float: right;
+}
+.twoClassify .list ul li .dis h1{
+	line-height: 20px;
+	font-size: 14px;
+	color: #050505;
+}
+.twoClassify .list ul li .dis .operation{
+	width: 100%;
+	height: 24px;
+	line-height: 24px;
+	margin-top: 16px;
+	font-size: 12px;
+	overflow: hidden;
+}
+.twoClassify .list ul li .dis .operation font{
+	float: left;
+	color: #d6d6d6;
+	font-size: 12px;
+}
+.twoClassify .list ul li .dis .operation font b{
+	color: #ef4700;
+	font-size: 14px;
+}
+
+.twoClassify .list ul li .dis .operation .car{
+	width: 80px;
+	height: 20px;
+	float: right;
+	margin-top: 2px;
+	overflow: hidden;
+}
+.twoClassify .list ul li .dis .operation .car img.addBut{
+	width: 20px;
+	height: 20px;
+	float: left;
+	cursor: pointer;
+}
+.twoClassify .list ul li .dis .operation .car img.reduceBut{
+	width: 20px;
+	height: 20px;
+	float: left;
+	cursor: pointer;
+}
+.twoClassify .list ul li .dis .operation .car i.addBut{
+	width: 20px;
+	height: 20px;
+	line-height: 20px;
+	text-align: center;
+	font-size: 18px;
+	color: #aace52;
+	float: left;
+	cursor: pointer;
+}
+.twoClassify .list ul li .dis .operation .car i.reduceBut{
+	width: 20px;
+	height: 20px;
+	line-height: 20px;
+	text-align: center;
+	font-size: 18px;
+	color: #aace52;
+	float: left;
+	cursor: pointer;
+}
+.twoClassify .list ul li .dis .operation .car .nums{
+	width: 40px;
+	height: 20px;
+	line-height: 20px;
+	border: 0;
+	text-align: center;
+	color: #333;
+	font-size: 14px;
+	float: left;
+}

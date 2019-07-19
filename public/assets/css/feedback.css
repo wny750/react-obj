@@ -1,0 +1,39 @@
+.yu_e{
+	border: 1px solid #E5E5E5;
+	border-radius: 5px;
+	background-color: #FFF;
+	margin: 5px;
+	overflow: hidden;
+}
+.yu_e textarea{
+	width: 100%;
+	height: 80px;
+	padding: 10px;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box; /* Firefox */
+	-webkit-box-sizing:border-box; /* Safari */
+	border: 0;
+}
+.yu_e span{
+	float: right;
+	margin-bottom: 5px;
+	margin-right: 10px;
+	color: #ef4700;
+}
+.yu_e span font{
+	color: #999;
+}
+
+.rechargeBut{
+	margin: 5px;
+	border-radius: 5px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	background-color: #ccc;
+	color: #FFF;
+	display: block;
+}
+.rechargeBut:link{
+	color: #FFF;
+}

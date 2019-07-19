@@ -1,0 +1,116 @@
+
+.address ul li{
+	background-color: #FFF;
+	margin-bottom: 10px;
+}
+.address ul li .t1{
+	padding: 0 10px;
+	height: 50px;
+	line-height: 50px;
+	overflow: hidden;
+	color: #3d4245;
+}
+.address ul li .t1 font{
+	font-size: 16px;
+	font-weight: 600;
+	float: left;
+}
+.address ul li .t1 span{
+	font-weight: 500;
+	float: right;
+}
+
+.address ul li .t2{
+	padding: 0 10px;
+	line-height: 28px;
+}
+
+.address ul li .operation{
+	padding: 0 10px;
+	margin-top: 10px;
+	height: 50px;
+	line-height: 50px;
+	overflow: hidden;
+	border-top: 1px solid #dddddd;
+}
+.address ul li .operation .defaultBut{
+	float: left;
+	color: #3d4245;
+}
+.address ul li .operation .editBut{
+	float: right;
+}
+.address ul li .operation .delBut{
+	float: right;
+	margin-left: 15px;
+}
+
+.address ul li .operation a{
+	color: #3d4245;
+}
+.address ul li .operation a i{
+	color: #666;
+	margin-right: 5px;
+	font-size: 14px;
+}
+
+.address ul li .operation .defaultBut i{
+	float: left;
+	display: block;
+	border: 1px solid #797979;
+	background-color: #FFF;
+	color: #FFF;
+	width: 16px;
+	height: 16px;
+	line-height: 16px;
+	border-radius: 2px;
+	font-size: 12px;
+	text-align: center;
+	margin-top: 16px;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box; /* Firefox */
+	-webkit-box-sizing:border-box; /* Safari */
+}
+.address ul li .operation .defaultBut font{
+	float: left;
+}
+.address ul li.active .operation .defaultBut i{
+	background-color: #ff5500;
+	color: #FFF;
+	border: 0;
+}
+.address ul li.active .operation .defaultBut font{
+	color: #ff5500;
+}
+.address ul li .operation .defaultBut font{
+	display: inline-block;
+}
+
+.addressEdit{
+	background-color: #FFF;
+	padding: 0 10px;
+}
+.addressEdit ul li{
+	line-height: 50px;
+	overflow: hidden;
+}
+.addressEdit ul li font{
+	display: block;
+	float: left;
+	width: 70px;
+	color: #666;
+}
+.addressEdit ul li span{
+	display: block;
+	float: left;
+	width: 200px;
+	color: #212121;
+	font-size: 14px;
+}
+.addressEdit ul li span.add a{
+	color: #999;
+}
+.addressEdit ul li span.add i{
+	font-size: 14px;
+	margin-left: 10px;
+}

@@ -1,0 +1,42 @@
+
+.info{
+	background-color: #FFF;
+	margin-top: 4px;
+}
+.info .row{
+	line-height: 50px;
+	padding: 0 10px;
+	overflow: hidden;
+	border-bottom: 1px solid #e5e5e5;
+}
+.info .row font{
+	width: 70px;
+	float: left;
+}
+.info .row span{
+	float: right;
+	color: #999;
+	text-align: right;
+}
+.info .row span img.head{
+	width: 40px;
+	height: 40px;
+	margin: 5px;
+	float: right;
+}
+
+.loginOut{
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	background-color: #aace52;
+	color: #FFF;
+	display: block;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+}
+.loginOut:link{
+	color: #FFF;
+}

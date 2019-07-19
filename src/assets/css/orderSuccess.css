@@ -1,0 +1,40 @@
+.success{
+	background-color: #FFF;
+	text-align: center;
+	overflow: hidden;
+	padding-bottom: 20px;
+}
+.success i{
+	display: block;
+	margin: 0 auto;
+	margin-top: 40px;
+	margin-bottom: 20px;
+	width: 80px;
+	height: 80px;
+	line-height: 80px;
+	border-radius: 50%;
+	font-size: 60px;
+	text-align: center;
+	background-color: #aace52;
+	color: #FFF;
+}
+.success p{
+	color: #000;
+	font-size: 16px;
+	font-weight: 600;
+	margin-bottom: 20px;
+}
+.success a{
+	display: inline-block;
+	width: 80px;
+	height: 28px;
+	line-height: 28px;
+	border: 1px solid #CCCCCC;
+	color: #aace52;
+	margin: 0 10px;
+}
+.success a.but{
+	border: 1px solid #aace52;
+	background-color: #aace52;
+	color: #FFF;
+}

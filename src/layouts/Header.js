@@ -1,7 +1,7 @@
 import React from 'react';
 // import ReactDom from 'react-dom';
 import "../assets/css1/header.css"
-import "../assets/css1/base.css"
+
 
 
 

@@ -1,0 +1,278 @@
+.otherTop{
+	border-bottom: 1px solid #f0f0f0;
+	position: fixed;
+	top:0;
+	left:0;
+}
+.settlement{
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	background-color: rgba(51,51,51,.9);
+	position: fixed;
+	bottom: 0px;
+	left: 0;
+	z-index: 3;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box; /* Firefox */
+	-webkit-box-sizing:border-box; /* Safari */
+}
+.settlement .total{
+	height: 50px;
+	line-height: 50px;
+	display: block;
+	float: left;
+	margin-left: 10px;
+	text-align: right;
+	color: #FFF;
+}
+.settlement .total font{
+	color: #FFF;
+	font-size: 22px;
+}
+.settlement a{
+	display: block;
+	float: right;
+	width: 120px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	background-color: #aace52;
+	color: #FFF;
+	font-size: 16px;
+}
+
+.position{
+	overflow: hidden;
+	background-color: #FFF;
+	margin-top: 50px;
+}
+.position .ico{
+	float: left;
+	text-align: center;
+	font-size: 12px;
+	color: #1c1c1c;
+	padding: 10px;
+}
+.position .ico img{
+	width: 28px;
+	height: 28px;
+	margin-bottom: 5px;
+}
+.position .ico i{
+	display: block;
+	width: 36px;
+	height: 36px;
+	line-height: 36px;
+	text-align: center;
+	font-size: 30px;
+	color: #aace52;
+}
+.position .address{
+	float: right;
+	min-height: 59px;
+	padding: 10px 10px 10px 0;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box; /* Firefox */
+	-webkit-box-sizing:border-box; /* Safari */
+}
+.position .address p.title{
+	font-size: 14px;
+	color: #1c1c1c;
+	text-overflow:ellipsis;
+	white-space:nowrap;
+	overflow:hidden;
+}
+.position .address p.m_top{
+	line-height: 20px;
+	font-size: 14px;
+	color: #1c1c1c;
+	margin-top: 0px;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2;
+	overflow: hidden;
+}
+
+.logistics{
+	overflow: hidden;
+	background-color: #FFF;
+	margin-top: 4px;
+}
+.logistics div{
+	float: left;
+	padding: 5px 10px;
+}
+.logistics div p{
+	line-height: 24px;
+	font-size: 14px;
+	color: #1c1c1c;
+	text-overflow:ellipsis;
+	white-space:nowrap;
+	overflow:hidden;
+}
+.logistics div p.color{
+	color: #999;
+}
+.logistics div p.color font{
+	float: left;
+}
+.logistics div input{
+	border: 0;
+	height: 24px;
+	line-height: 24px;
+}
+.logistics i{
+	float: right;
+	font-size: 14px;
+	margin-top: 21.5px;
+	margin-right: 10px;
+}
+
+.goodsList{
+	overflow: hidden;
+	background-color: #FFF;
+}
+.goodsList ul li{
+	padding: 10px;
+	overflow: hidden;
+	font-size: 14px;
+	margin: 2px 0;
+}
+.goodsList ul li .goods{
+	overflow: hidden;
+	background-color: #fafafa;
+	padding: 5px;
+}
+.goodsList ul li div.inforemarks{
+	line-height: 30px;
+	text-overflow:ellipsis;
+	white-space:nowrap;
+	overflow:hidden;
+	background-color: transparent;
+}
+.goodsList ul li div.inforemarks input{
+	width: 100%;
+	height: 20px;
+	line-height: 20px;
+	border: 0;
+	border-radius: 0 0 5px 5px;
+	margin-top: 10px;
+	padding: 0 5px;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box; /* Firefox */
+	-webkit-box-sizing:border-box; /* Safari */
+}
+.goodsList ul li img{
+	width: 60px;
+	height: 60px;
+	float: left;
+}
+.goodsList ul li .dis{
+	float: right;
+	height: 60px;
+}
+.goodsList ul li .dis div{
+	line-height: 20px;
+	overflow: hidden;
+}
+.goodsList ul li .dis div .name{
+	float: left;
+}
+.goodsList ul li .dis div span{
+	float: right;
+	color: #999;
+}
+.goodsList ul li .dis div span font{
+	color: #F00;
+}
+.goodsList ul li .dis p{
+	line-height: 20px;
+	margin-top: 20px;
+	color: #999;
+}
+
+.remarks{
+	width: 100%;
+	height: 80px;
+	border: 0;
+	margin-top: 4px;
+	line-height: 20px;
+	padding: 5px 10px;
+	color: #666;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box; /* Firefox */
+	-webkit-box-sizing:border-box; /* Safari */
+}
+.spread i{
+	margin-left: 5px;
+}
+
+.spread{
+	display: block;
+	width: 100%;
+	background-color: #FFF;
+	line-height: 40px;
+	text-align: center;
+	border-top: 1px solid #e5e5e5;
+	color: #999;
+}
+
+
+/*
+ * 上边是提交订单页面
+ * 下边是订单详情页面
+ * */
+.orderNum_state{
+	overflow: hidden;
+	margin-top: 50px;
+	background-color: #FFF;
+}
+.orderNum{
+	height: 40px;
+	line-height: 40px;
+	padding: 0 10px;
+	font-size: 12px;
+	float: left;
+}
+.state{
+	height: 40px;
+	line-height: 40px;
+	text-align: right;
+	padding: 0 10px;
+	font-size: 12px;
+	color: #F00;
+	float: right;
+}
+.totalDis{
+	height: 40px;
+	line-height: 40px;
+	padding: 0 10px;
+	text-align: right;
+	background-color: #FFF;
+}
+.totalDis font{
+	color: #ef4700;
+}
+.userDis{
+	background-color: #FFF;
+	padding: 0 10px;
+	margin-top: 4px;
+}
+.userDis p{
+	line-height: 30px;
+	font-size: 14px;
+	color: #030303;
+	overflow: hidden;
+}
+.userDis p font{
+	display: block;
+	float: left;
+	width: 70px;
+	color: #999;
+}
+.userDis p span{
+	display: block;
+	float: left;
+}

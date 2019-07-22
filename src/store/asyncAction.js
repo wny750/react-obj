@@ -1,7 +1,7 @@
 import axios from "axios";
 
 export const asyncAction =({
-    url,params={},method="get",receipt=false,typeName,
+    url,params={},method="get",receipt=false,typeName,data={}
 })=>(dispatch,getState)=>(
     axios({
         params,method,data,url

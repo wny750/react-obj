@@ -1,0 +1,77 @@
+
+.cashCoupon{
+	margin-top: 5px;
+}
+.cashCoupon .box{
+	margin: 0px 5px 10px 5px;
+}
+.cashCoupon .box .top{
+	width: 100%;
+	height: 9px;
+	background: url(../images/cashCoupon_topBg.png) repeat-x center;
+}
+.cashCoupon .box .midd{
+	width: 100%;
+	background-color: #FFF;
+	overflow: hidden;
+}
+.cashCoupon .box .midd .money{
+	width: 100px;
+	height: 100px;
+	line-height: 100px;
+	text-align: center;
+	float: left;
+	color: #aace52;
+	border-right: 1px dashed #aace52;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box; /* Firefox */
+	-webkit-box-sizing:border-box; /* Safari */
+}
+.cashCoupon .box .midd .money font{
+	font-size: 40px;
+}
+.cashCoupon .box .midd .dis{
+	width: 100px;
+	padding-top: 20px;
+	height: 100px;
+	float: right;
+	background-size: 150px 150px;
+	background-position: top 20px right -40px;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box; /* Firefox */
+	-webkit-box-sizing:border-box; /* Safari */
+}
+.cashCoupon .box .midd .dis h1{
+	line-height: 20px;
+	color: #aace52;
+	font-size: 16px;
+}
+.cashCoupon .box .midd .dis h3{
+	line-height: 20px;
+	color: #666;
+	font-size: 14px;
+}
+.cashCoupon .box .midd .dis p{
+	line-height: 20px;
+	color: #b6b6b6;
+	font-size: 12px;
+}
+
+.cashCoupon .box .bot{
+	width: 100%;
+	height: 15px;
+	background-color: #aace52;
+	border-radius: 0 0 10px 10px;
+}
+
+
+.cashCoupon .overdue .midd .dis h1,.cashCoupon .overdue .midd .dis h3,.cashCoupon .overdue .midd .money{
+	color: #b6b6b6;
+}
+.cashCoupon .overdue .bot{
+	background-color: #a1a1a1;
+}
+.cashCoupon .overdue .midd .dis{
+	background-size: 150px 150px;
+	background-position: top 20px right -40px;
+}

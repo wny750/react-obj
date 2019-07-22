@@ -8,9 +8,9 @@ class Home extends React.Component{
     render(){
         return (
             <div>
-                    <Swipe />
-                    <List1 />
-                    <Products />
+                <Swipe />
+                <List1 />
+                <Products />
             </div>
         )
     }

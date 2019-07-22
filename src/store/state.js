@@ -6,7 +6,7 @@ const state= {
     user:{
         err:1
     },
-    detaul:{}
+    detail:{}
 }
 
 export default state

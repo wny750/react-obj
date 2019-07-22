@@ -1,0 +1,231 @@
+.otherTop{
+	border-bottom: 1px solid #f0f0f0;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+.menu{
+	overflow: hidden;
+	background-color: #FFF;
+	width: 100%;
+	height: 40px;
+	position: fixed;
+	top: 50px;
+	left: 0;
+}
+.menu a{
+	width: 20%;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	font-size: 14px;
+	color: #050505;
+	float: left;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box; /* Firefox */
+	-webkit-box-sizing:border-box; /* Safari */
+}
+.menu a.active{
+	border-bottom: 2px solid #aace52;
+}
+
+.list ul li .title{
+	padding: 0 10px;
+	height: 40px;
+	line-height: 40px;
+	overflow: hidden;
+	font-size: 12px;
+	background-color: #f1f1f1;
+}
+.list ul li .title .orderNum{
+	float: left;
+}
+.list ul li .title .orderTime{
+	float: right;
+}
+.list ul li .con{
+	background-color: #FFF;
+}
+.list ul li .con .orderState{
+	padding: 0 10px;
+	line-height: 40px;
+	overflow: hidden;
+}
+.list ul li .con .orderState span{
+	float: left;
+	color: #999;
+	line-height: 40px;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2;
+	overflow: hidden;
+}
+.list ul li .con .orderState font{
+	width: 50px;
+	float: right;
+	text-align: right;
+	color: #ff0000;
+}
+.list ul li .con .orderGoods{
+	overflow: hidden;
+	padding: 5px 0;
+}
+.list ul li .con .orderGoods ul{
+	overflow: hidden;
+	width: 100%;
+}
+.list ul li .con .orderGoods ul li{
+	width: 100%;
+	overflow: hidden;
+	background-color: #fafafa;
+	padding: 5px;
+	margin: 2px 0;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+.list ul li .con .orderGoods ul li img{
+	width: 60px;
+	height: 60px;
+	float: left;
+	margin-left: 10px;
+}
+.list ul li .con .orderGoods ul li .dis{
+	width: 60px;
+	height: 60px;
+	float: right;
+}
+.list ul li .con .orderGoods ul li .dis font.name{
+	width: 100%;
+	font-size: 14px;
+	line-height: 30px;
+}
+.list ul li .con .orderGoods ul li .dis div.price{
+	width: 100%;
+	overflow: hidden;
+}
+.list ul li .con .orderGoods ul li .dis div.price p{
+	float: left;
+	line-height: 30px;
+}
+.list ul li .con .orderGoods ul li .dis div.price span{
+	float: right;
+	line-height: 30px;
+	color: #999;
+}
+.list ul li .con .hjPrice{
+	padding: 0 10px;
+	height: 30px;
+	line-height: 30px;
+	overflow: hidden;
+	text-align: right;
+}
+.list ul li .con .hjPrice font{
+	font-size: 12px;
+}
+.list ul li .con .orderOperation{
+	padding: 0 10px;
+	height: 40px;
+	overflow: hidden;
+}
+.list ul li .con .orderOperation i{
+	display: block;
+	float: left;
+    width: 16px;
+    height: 16px;
+    line-height: 16px;
+    text-align: center;
+    font-size: 14px;
+    border: 1px solid #cfcfcf;
+    border-radius: 50%;
+    margin-right: 5px;
+    margin-top: 9px;
+    color: #FFF;
+}
+.list ul li .con .orderOperation i.active{
+	background-color: #fed131;
+	border-color: #fed131;
+	color: #FFF;
+}
+.list ul li .con .orderOperation font{
+	line-height: 40px;
+	display: block;
+	float: left;
+	color: #F00;
+}
+.list ul li .con .orderOperation a{
+	display: block;
+	float: right;
+	height: 24px;
+	line-height: 24px;
+	padding: 0 10px;
+	color: #666;
+	border: 1px solid #ccc;
+	border-radius: 12px;
+    margin-top: 7px;
+    margin-left: 10px;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box; /* Firefox */
+	-webkit-box-sizing:border-box; /* Safari */
+}
+
+.settlement{
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	background-color: #FFF;
+	position: fixed;
+	bottom: 0px;
+	left: 0;
+	z-index: 3;
+	border-top: 1px solid #e5e5e5;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box; /* Firefox */
+	-webkit-box-sizing:border-box; /* Safari */
+}
+.settlement .total{
+	display: block;
+	float: right;
+	margin-right: 10px;
+	text-align: right;
+	color: #ef4700;
+}
+.settlement .total font{
+}
+.settlement a{
+	display: block;
+	float: right;
+	width: 80px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	background-color: #1ea838;
+	color: #FFF;
+	font-size: 14px;
+	margin-top: 10px;
+	margin-right: 10px;
+}
+
+.settlement .chooseAll{
+	display: block;
+	float: left;
+	margin-left: 10px;
+}
+.settlement .chooseAll i{
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	line-height: 16px;
+	text-align: center;
+	font-size: 12px;
+	border: 1px solid #cfcfcf;
+	border-radius: 50%;
+	margin-right: 5px;
+	color: #FFF;
+}
+.settlement .chooseAll i.active{
+	background-color: #fed131;
+	border-color: #fed131;
+	color: #FFF;
+}

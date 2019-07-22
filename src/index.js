@@ -8,8 +8,8 @@ import axios from "./utils/axios";
 
 
 let local = localStorage.getItem('react_user') ? JSON.parse(localStorage.getItem('react_user')) : null;
-    if(local) store.dispatch({type:'UPDATE_USER',payload:local})
-    else store.dispatch({type:"UPDATE_USER",payload:{err:1}})
+    // if(local) store.dispatch({type:'UPDATE_USER',payload:local})
+    // else store.dispatch({type:"UPDATE_USER",payload:{err:1}})
 
 ReactDom.render(
     <Provider store={store}>
